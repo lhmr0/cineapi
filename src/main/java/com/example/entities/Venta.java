@@ -13,7 +13,11 @@ public class Venta {
 	private String nombrepelicula;
 	private int duracionpelicula;
 	private String tipoestreno;// E, N
+	private String horapelicula;//12:30
+	private String salapelicula;
 	private String nombrecliente;
+	private String dnicliente;//12345678
+	private String asiento;
 	private int cantidad;
 	private String tipopago;// EFECTIVO - TARJETA
 	private double montopago;
@@ -22,6 +26,38 @@ public class Venta {
 		super();
 	}
 	
+	public String getHorapelicula() {
+		return horapelicula;
+	}
+
+	public void setHorapelicula(String horapelicula) {
+		this.horapelicula = horapelicula;
+	}
+
+	public String getSalapelicula() {
+		return salapelicula;
+	}
+
+	public void setSalapelicula(String salapelicula) {
+		this.salapelicula = salapelicula;
+	}
+
+	public String getDnicliente() {
+		return dnicliente;
+	}
+
+	public void setDnicliente(String dnicliente) {
+		this.dnicliente = dnicliente;
+	}
+
+	public String getAsiento() {
+		return asiento;
+	}
+
+	public void setAsiento(String asiento) {
+		this.asiento = asiento;
+	}
+
 	public String getNombrepelicula() {
 		return nombrepelicula;
 	}
